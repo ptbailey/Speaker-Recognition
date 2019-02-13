@@ -15,7 +15,7 @@ Identifying which celebrity is speaking through deep neural networks.
 
 
 ### Demo:
-
+![](https://github.com/ptbailey/Speaker-Recognition/blob/master/demo.gif)
 
 
 
