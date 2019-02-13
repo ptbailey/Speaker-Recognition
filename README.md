@@ -1,6 +1,6 @@
 # Speaker Recognition
 ### Project Definition:   
-Identifying which celebrity is speaking through deep neural networks. 
+Identifying which celebrity is speaking through deep neural networks. Applications for this project include machines matching commands with individuals through their voices, such that in the future, the machines can anticipate personal commands.
 
 ### Process:
 1) Collected data from [VoxCeleb](http://www.robots.ox.ac.uk/~vgg/data/voxceleb/vox1.html)[1], a database of celebrities' voices and images.
@@ -10,8 +10,22 @@ Identifying which celebrity is speaking through deep neural networks.
 - **Chorma-stft**: Compute a chromagram from a waveform or power spectrogram. "In music, the term chroma feature or chromagram closely relates to the twelve different pitch classes. Chroma-based features, which are also referred to as "pitch class profiles", are a powerful tool for analyzing music whose pitches can be meaningfully categorized and whose tuning approximates to the equal-tempered scale." (Wikipedia)
 - **Spectral Contrast**: Compute spectral contrast. Spectral contrast is defined as the level difference between peaks and valleys in the spectrum
 - **Tonnetz**: Computes the tonal centroid features (tonnetz)
-3)
+3) Store features in pandas dataframe and prepare data for modelling
+4) Run models
 
+### Visualization examples of mel and tonnetz features:
+![](https://github.com/ptbailey/Speaker-Recognition/blob/master/MC%20mel.png) | ![] (https://github.com/ptbailey/Speaker-Recognition/blob/master/SR%20mel.png)
+
+![](https://github.com/ptbailey/Speaker-Recognition/blob/master/MC%20tonnetz.png) | ![](https://github.com/ptbailey/Speaker-Recognition/blob/master/SR%20tonnetz.png)
+
+### Best Model:
+The best model was an 18 layer - CNN model using selu activation function, yielding 0.73 F1-score.    
+
+Error and Validation Plots:     
+![](https://github.com/ptbailey/Speaker-Recognition/blob/master/Error:Validation%20plot.png)
+
+ROC Curve for all celebrities:    
+![](https://github.com/ptbailey/Speaker-Recognition/blob/master/ROC%20curve.png)
 
 
 ### Demo:
