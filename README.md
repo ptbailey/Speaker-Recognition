@@ -14,9 +14,9 @@ Identifying which celebrity is speaking through deep neural networks. Applicatio
 4) Run models
 
 ### Visualization examples of mel and tonnetz features:
-![](https://github.com/ptbailey/Speaker-Recognition/blob/master/MC%20mel.png) | ![] (https://github.com/ptbailey/Speaker-Recognition/blob/master/SR%20mel.png)
+![alt](https://github.com/ptbailey/Speaker-Recognition/blob/master/MC%20mel.png) | ![alt] (https://github.com/ptbailey/Speaker-Recognition/blob/master/SR%20mel.png)
 
-![](https://github.com/ptbailey/Speaker-Recognition/blob/master/MC%20tonnetz.png) | ![](https://github.com/ptbailey/Speaker-Recognition/blob/master/SR%20tonnetz.png)
+![alt](https://github.com/ptbailey/Speaker-Recognition/blob/master/MC%20tonnetz.png) | ![alt](https://github.com/ptbailey/Speaker-Recognition/blob/master/SR%20tonnetz.png)
 
 ### Best Model:
 The best model was an 18 layer - CNN model using selu activation function, yielding 0.73 F1-score.    
