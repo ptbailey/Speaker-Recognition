@@ -18,7 +18,9 @@ Miranda Cosgrove's Mel             |  Smokey Robinson's Mel
 :-------------------------:|:-------------------------:
 ![](https://github.com/ptbailey/Speaker-Recognition/blob/master/MC%20mel.png)  |  ![](https://github.com/ptbailey/Speaker-Recognition/blob/master/SR%20mel.png)
 
-![alt](https://github.com/ptbailey/Speaker-Recognition/blob/master/MC%20tonnetz.png) | ![alt](https://github.com/ptbailey/Speaker-Recognition/blob/master/SR%20tonnetz.png)
+Miranda Cosgrove's Tonnetz             |  Smokey Robinson's Tonnetz
+:-------------------------:|:-------------------------:
+![](https://github.com/ptbailey/Speaker-Recognition/blob/master/MC%20tonnetz.png) | ![](https://github.com/ptbailey/Speaker-Recognition/blob/master/SR%20tonnetz.png)
 
 ### Best Model:
 The best model was an 18 layer - CNN model using selu activation function, yielding 0.73 F1-score.    
@@ -29,8 +31,9 @@ Error and Validation Plots:
 ROC Curve for all celebrities:    
 ![](https://github.com/ptbailey/Speaker-Recognition/blob/master/ROC%20curve.png)
 
-
 ### Demo:
+Challenged my audience to try and guess the celebrity from an audio clipped I played. I then ran my model to try and determine the person as well. My model won with 3 more correct guesses than the audience.
+
 ![](https://github.com/ptbailey/Speaker-Recognition/blob/master/demo.gif)
 
 
